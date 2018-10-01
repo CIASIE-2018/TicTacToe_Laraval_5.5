@@ -164,4 +164,7 @@ class Game
         $this->turn =
             $this->turn == $this->player1 ? $this->player2 : $this->player1;
     }
+public function reset() {
+window.open('http://localhost:8080.com/reset');}	
+
 }

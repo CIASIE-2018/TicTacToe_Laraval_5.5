@@ -117,7 +117,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel <input type="button" onclick='window.location.href = 'https://stackoverflow.com';)' value="Rafraichir"/>
                 </div>
                 @foreach ($game->board as $row)
                     @foreach ($row as $cell)
